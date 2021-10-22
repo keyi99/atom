@@ -74,3 +74,9 @@ def elements(str):
 ```python
 def names(str):
     
+##Contributing
+
+This project exists thanks to all the people who contribute.
+
+##License
+
