@@ -36,11 +36,26 @@ $ ./atomcat.py testdata.dat
 
 ```python
 import numpy as np
-def array(data):
-#usage: create arrays and return lists of coodinates for t1 
-#input: 
-#output:
+def atomarr(str,float):
+    #usage: create arrays and return lists of coodinates for atoms
+    #data file: C5' 40.228 17.831 13.474; O5' 40.761 17.421 12.230
+    atomarr = np.array(coords) 
+    print atomarr
+    return
 
-#example
-#out = t1(data)
-return np.array()
+    #example: 
+    t1 = np.array(coords);
+    print t1
+    [[40.228,17.831,13.474],[40.761,17.421,12.230]]
+```
+
+- system
+
+```python
+
+```
+
+- regular expression processing
+```python
+
+```
