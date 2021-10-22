@@ -26,4 +26,8 @@ import re
 
 ## Usage
 
-In linux, you can change mode to execute this project on the python environment 
+In linux, you can change mode to execute this project on the python environment:
+
+```
+$ chmod +x atomcat.py
+```
