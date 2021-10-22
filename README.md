@@ -75,9 +75,9 @@ def elements(str):
 def names(str):
 ```
     
-##Contributing
+## Contributing
 
 This project exists thanks to all the people who contribute.
 
-##License
+## License
 
