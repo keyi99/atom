@@ -38,7 +38,7 @@ $ ./atomcat.py testdata.dat
 import numpy as np
 def atomarr(str,float):
     #usage: create arrays and return lists of coodinates for atoms
-    #data file: C5' 40.228 17.831 13.474; O5' 40.761 17.421 12.230
+    #data file: the name and three coordinates of atoms
     atomarr = np.array(coords) 
     print atomarr
     return
@@ -52,10 +52,25 @@ def atomarr(str,float):
 - system
 
 ```python
-
+def finum(str):
+    #usage: calculate the number of command line and make sure the number of arguments is two
+    #atomcat.py and a data file
+    finum = len(sya.argv)
+    if(finum != 2):
+        print ("Usage: atomcat.py input_file")
+    return
 ```
 
 - regular expression processing
 ```python
-
+def elements(str):
+    #usage: check elements which start with upper letters following by 0 or more letters and then return the list ele containing all matches
+    elements = re.findall ("^[A-Z]{1}[a-z]*",s)
+    
 ```
+
+-append
+
+```python
+def names(str):
+    
