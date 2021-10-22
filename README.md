@@ -30,3 +30,17 @@ $ chmod +x atomcat.py
 $ ./atomcat.py testdata.dat
 ```
 
+## API
+
+- numpy
+
+```python
+import numpy as np
+def array(data):
+#usage: create arrays and return lists of coodinates for t1 
+#input: 
+#output:
+
+#example
+#out = t1(data)
+return np.array()
