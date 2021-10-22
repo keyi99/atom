@@ -1,13 +1,29 @@
 # atomcat
 This project is created for finding maximum and minimum coordinates, the simple centre of gravity of the coordinates, and printing out which atoms are bonded to which.
-# Table of Contents
+## Table of Contents
+
 - Background
 - Install
 - Usage
 - API
 - Contributing
 - License
-# Background
 
-# Install
-This project uses sympy
+## Background
+
+Atomcat is a python program that can use on the coordinate system for proteins such as [PDB files] (https://www.rcsb.org/). Proteins have many atoms, so it's hard for researchers to find or calculate the coordinates for those atoms. A program was started to make as a result of that. In this program, you can input your original files to calculate automatically. 
+
+## Install
+
+This project uses python 3.7.3 on the linux. And it also needs to import sys for System-specific parameters and functions, numpy for Numerical Python, and re for Regular expression operations. Go check them out if you don't have them locally installed.
+
+```python
+#!/usr/bin/env python
+import sys
+import numpy as np
+import re
+```
+
+## Usage
+
+In linux, you can change mode to execute this project on the python environment 
