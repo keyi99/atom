@@ -19,15 +19,14 @@ This project uses python 3.7.3 on the linux. And it also needs to import sys for
 
 ```python
 #!/usr/bin/env python
-import sys
-import numpy as np
-import re
 ```
 
 ## Usage
 
-In linux, you can change mode to execute this project on the python environment:
+In linux, you can change mode to execute this project on the python environment and input your file on the command line:
 
 ```
 $ chmod +x atomcat.py
+$ ./atomcat.py testdata.dat
 ```
+
