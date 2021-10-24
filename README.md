@@ -15,10 +15,11 @@ Atomcat is a python program that can use on the coordinate system for proteins s
 
 ## Install
 
-This project uses python 3.7.3 on the linux. And it also needs to import sys for System-specific parameters and functions, numpy for Numerical Python, and re for Regular expression operations. Go check them out if you don't have them locally installed.
+This project uses python 3.7.3 on the linux. Go check them out if you don't have them locally installed.
 
-```python
-#!/usr/bin/env python
+```
+$ sudo apt-get update
+$ sudo apt-get install python3.7.3
 ```
 
 ## Usage
@@ -39,7 +40,25 @@ $ chmod +x atomcat.py
 $ ./atomcat.py testdata.dat
 ```
 
-    
+## API
+- numpy
+
+```python
+import numpy as np
+```
+
+- System-specific parameters and functions
+
+```python
+import sys
+```
+
+- Regular expression operations
+
+```python
+import re
+```
+
 ## Contributing
 
 This project exists thanks to all the people who contribute.
